@@ -1,0 +1,7 @@
+.Body {
+	border: 1px solid rgb(206, 212, 218);
+	padding: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	min-height: 400px;
+}
