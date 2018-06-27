@@ -9,6 +9,7 @@ export const getIsLoading = ( state ) => ( Selectors.getIsLoading( getSlice( sta
 export const getProducts = ( state ) => ( Selectors.getProducts( getSlice( state ) ) );
 
 export {
+	fetchProducts,
 	fetchProductData
 } from "components/Products/redux/actions";
 

@@ -2,6 +2,12 @@
 	require_once "class.dbmodel.inc";
 
 	class ProductsModel extends DbModel {
+		public function fetch() {
+			$params = $this->getParams();
+			
+			return $this->executeSqlSearch( "SELECT * FROM PRODUCTS" );
+		}
+
 		public function insert() {
 			$params = $this->getParams();
 

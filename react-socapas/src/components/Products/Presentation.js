@@ -9,6 +9,14 @@ export default class Presentation extends Component {
 	constructor( props ) {
 		super( props );
 
+		const {
+			fetchProducts
+		} = props;
+
+		if ( fetchProducts ) {
+			fetchProducts();
+		}
+
 		this.renderProductCards = this.renderProductCards.bind( this );
 	}
 

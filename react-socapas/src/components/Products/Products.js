@@ -2,7 +2,8 @@ import { connect } from "react-redux";
 import Presentation from "components/Products/Presentation";
 import {
 	getProducts,
-	getIsLoading
+	getIsLoading,
+	fetchProducts
 } from "components/Products/redux/index";
 
 export default connect(
@@ -12,7 +13,7 @@ export default connect(
 	}),
 	( dispatch ) => ({
 		fetchProducts() {
-			// dispatch( getProducts() );
+			fetchProducts();
 		}
 	})
 )( Presentation );

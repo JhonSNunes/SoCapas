@@ -1,3 +1,4 @@
+import axios from "axios";
 import {
 	IS_LOADING,
 	LOAD_PRODUCTS
@@ -12,3 +13,20 @@ const setLoadProducts = ( products ) => ({
 	type: LOAD_PRODUCTS,
 	products
 });
+
+export const fetchProducts = ( params ) => (
+	( dispatch ) => {
+		dispatch( setIsLoading( true ) );
+
+		axios({
+			method: "post",
+			url: "http://localhost:81/Socapas/wwwroot/products/products.php",
+			data: {
+				teste: "Oi"
+			}
+		}).then( ( response ) => {
+			debugger;
+			dispatch( setLoadProducts( {} ) );
+		} );
+	}
+);

@@ -11,7 +11,7 @@
 			$this->setServerName( "localhost" );
 			$this->setUserName( "root" );
 			$this->setPassword( "" );
-			$this->setDbName( "provadesweb" );
+			$this->setDbName( "socapas" );
 			$this->setParams( $params );
 		}
 
