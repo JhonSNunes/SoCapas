@@ -22,9 +22,9 @@ export default class Application extends Component {
                     <NavigationBar />
                     <Switch>
                         <Route exact path="/" component={Home} />
-                        <Route path="/products" component={Products} />
-                        <Route path="/about" component={About} />
-                        <Route path="/makeABudget" component={MakeABudget} />
+                        <Route exact path="/products" component={Products} />
+                        <Route exact path="/about" component={About} />
+                        <Route exact path="/makeABudget" component={MakeABudget} />
                     </Switch>
                 </div>
             </Provider>

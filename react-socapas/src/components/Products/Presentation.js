@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { object } from "prop-types";
 import QuickSearch from "components/QuickSearch/QuickSearch";
 import AdvancedSearch from "components/AdvancedSearch/AdvancedSearch";
-import ProductCard from "Mols/ProductCard/ProductCard";
+import ProductCard from "components/ProductCard/ProductCard";
 import "components/Products/styles.css";
 
 export default class Presentation extends Component {
@@ -20,7 +20,7 @@ export default class Presentation extends Component {
 
 		const parsedProducts = products.toJS();
 		const cards = parsedProducts.map( ( el ) => (
-			<ProductCard {...el} />
+			<ProductCard key={el.cdproduct} {...el} />
 		) );
 
 		return (

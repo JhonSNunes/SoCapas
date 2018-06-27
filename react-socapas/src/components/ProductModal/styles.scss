@@ -1,0 +1,22 @@
+.ProductModal {
+	width: 600px !important;
+	min-width: 600px !important;
+}
+
+.ProductModal--footerButtons {
+	display: flex;
+}
+
+.ProductModal--button {
+	padding-left: 10px;
+}
+
+.modal-body {
+	min-height: 600px;
+	max-height: 600px;
+	overflow: auto;
+}
+
+.ProductModalBackground {
+	opacity: 0.1 !important;
+}

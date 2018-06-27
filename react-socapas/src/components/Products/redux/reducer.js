@@ -9,80 +9,80 @@ const inicial = immutable.fromJS({
 	products: immutable.fromJS([
 		immutable.fromJS({
 			cdproduct: 1,
-			name: "produto_1",
-			code: "code_1",
+			idproduct: "idproduct_1",
+			nmproduct: "produto_1",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 2,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 3,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 4,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 5,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 6,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 7,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 8,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 9,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 10,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		}),
 		immutable.fromJS({
-			cdproduct: 1,
-			name: "produto_2",
-			code: "code_2",
+			cdproduct: 11,
+			idproduct: "idproduct_2",
+			nmproduct: "produto_2",
 			description: "blalblalb",
-			imgPath: "hue"
+			imgPath: undefined
 		})
 	])
 });

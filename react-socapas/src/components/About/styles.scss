@@ -1,0 +1,11 @@
+$borderColor: #CED4DA;
+$headerFooterHeigth: 50px;
+$headerFooterColor: #F8F9FA;
+
+.About--container {
+	border: 1px solid $borderColor;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto;
+}

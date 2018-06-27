@@ -7,6 +7,28 @@
 	margin: 10px;
 	position: relative;
 	border-radius: 3px;
+
+	.icon-pencil,
+	.icon-trash {
+		padding: 20px;
+		font-size: 35px;
+	}
+
+	.icon-pencil:hover,
+	.icon-trash:hover {
+		color: #f1f1f1 !important;
+		transition: color 0.5s ease;
+		cursor: pointer;
+	}
+
+	.icon-camera {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 80px;
+		opacity: 0.8;
+		height: 100%;
+	}
 }
 
 .CardBody--image {
@@ -52,26 +74,4 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.icon-pencil,
-.icon-trash {
-	padding: 20px;
-	font-size: 35px;
-}
-
-.icon-pencil:hover,
-.icon-trash:hover {
-	color: #f1f1f1 !important;
-	transition: color 0.5s ease;
-	cursor: pointer;
-}
-
-.icon-camera {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 80px;
-	opacity: 0.8;
-	height: 100%;
 }

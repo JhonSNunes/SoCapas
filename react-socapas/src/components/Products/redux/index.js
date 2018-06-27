@@ -8,6 +8,10 @@ const getSlice = ( state ) => ( state.Product.Record );
 export const getIsLoading = ( state ) => ( Selectors.getIsLoading( getSlice( state ) ) );
 export const getProducts = ( state ) => ( Selectors.getProducts( getSlice( state ) ) );
 
+export {
+	fetchProductData
+} from "components/Products/redux/actions";
+
 export default combineReducers({
 	Record: reducer,
 	AdvancedSearch	

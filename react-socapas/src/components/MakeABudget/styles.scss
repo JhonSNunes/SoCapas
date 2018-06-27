@@ -1,0 +1,39 @@
+$borderColor: #CED4DA;
+$headerFooterHeigth: 50px;
+$headerFooterColor: #F8F9FA;
+
+.MakeABudget--container {
+	border: 1px solid $borderColor;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.MakeABudget--header,
+.MakeABudget--footer {
+	width: 100%;
+	height: $headerFooterHeigth;
+	background-color: $headerFooterColor;
+}
+
+.MakeABudget--header {
+	border-bottom: 1px solid $borderColor;
+}
+
+.MakeABudget--body {
+	padding: 10px;
+}
+
+.MakeABudget--footer {
+	border-top: 1px solid $borderColor;
+	display: flex;
+}
+
+.MakeABudget--footerContent {
+	display: flex;
+	width: 100%;
+	align-self: center;
+	justify-content: flex-end;
+	padding-right: 7px;
+}

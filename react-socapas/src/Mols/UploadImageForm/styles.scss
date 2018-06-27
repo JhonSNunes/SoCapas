@@ -1,0 +1,17 @@
+.UploadImageForm--body  {
+	margin-bottom: 16px;
+}
+
+.UploadImageForm--label {
+	margin:	auto;
+}
+
+.UploadImageForm--content {
+	border: 1px solid #CED4DA;
+	border-radius: 4px;
+
+	.fileContainer {
+		box-shadow: none;
+		-webkit-box-shadow: none;
+	}
+}
